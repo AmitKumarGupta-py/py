@@ -1,0 +1,14 @@
+Assignment : Replace a Keyword in a Text File
+Objective:
+Write a Python program that reads a text file, searche for all occurrences of the keyword 'after', replaces it with 'before', and saves the modified content back to the same file. The program should handle the reading and writing of the file contents carefully to ensure no data is lost or corrupted during the process.
+
+Requirements:
+
+The program should read the entire content of a given text file.
+The program should search for the keyword 'after' within the file content. This search should be case-sensitive, meaning only exact matches of 'after' (in lowercase) will be replaced.
+The program should replace all occurrences of 'after' with 'before'.
+After making the replacements, the program should save the updated content back into the original file, overwriting the old content.
+The program should handle potential errors, such as:
+The file not existing.
+The file being empty.
+The file being read-only (unable to be written to).
